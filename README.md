@@ -19,10 +19,9 @@ fetch('https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js')
 
 # LODASH.JS
 ```javascript
-fetch('https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.14/lodash.min.js')
-    .then(response => response.text())
-    .then(text => eval(text))
-    .then(() => { /* now you can use Lodash.js in your console */ })
+let el = document.createElement('script');
+el.src = 'https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.14/lodash.min.js';
+document.getElementsByTagName('head')[0].appendChild(el);
 ```
 
 🆙 TO UPDATE to last version check it on official site 👉 https://lodash.com/
