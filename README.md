@@ -22,7 +22,7 @@ fetch('https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js')
 fetch('https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.14/lodash.min.js')
     .then(response => response.text())
     .then(text => eval(text))
-    .then(() => { /* now you can use Moment.js in your console */ })
+    .then(() => { /* now you can use Lodash.js in your console */ })
 ```
 
 🆙 TO UPDATE to last version check it on official site 👉 https://lodash.com/
