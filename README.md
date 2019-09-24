@@ -25,3 +25,15 @@ document.getElementsByTagName('head')[0].appendChild(el);
 ```
 
 🆙 TO UPDATE to last version check it on official site 👉 https://lodash.com/
+
+••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+
+# LODASH.JS
+```javascript
+fetch('https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js')
+    .then(response => response.text())
+    .then(text => eval(text))
+    .then(() => { /* now you can use Crypto.js in your console with Crypto obj */ })
+```
+
+🆙 TO UPDATE to last version check it on official site 👉 https://code.google.com/archive/p/crypto-js/downloads
