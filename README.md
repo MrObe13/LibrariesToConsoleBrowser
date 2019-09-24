@@ -28,7 +28,7 @@ document.getElementsByTagName('head')[0].appendChild(el);
 
 ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
 
-# LODASH.JS
+# CRYPTO-JS.JS
 ```javascript
 fetch('https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js')
     .then(response => response.text())
